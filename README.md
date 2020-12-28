@@ -12,7 +12,7 @@
 - CRUD 구현
 - HTML/JSP를 활용한 화면간 이동 구현
 - Web-Based의 처리는 Request/Response구조라는 웹의 특징을 활용하여 구현됨 
-<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/game.png">
+<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/game.png"><br>
   (출처 : <게임제작개론 : #6 게임 시스템 구조에 대한 이해> https://www.slideshare.net/sm9kr/6-20903192)
 
 ### PROGRAMING TOOLS
@@ -27,7 +27,7 @@
 ## Structure
 <div>
   - MVC Pattern
-<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/MVC1.png">
+<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/MVC1.png" width=500>
   (출처: 위키피디아)
   
 ## INSIGHT
