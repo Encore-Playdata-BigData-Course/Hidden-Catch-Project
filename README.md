@@ -4,7 +4,7 @@
 <div>
 
 ### Description
-🧠 다운로드나 설치 없이 간단한 가입 후 WEB 상에서 할 수 있는 숨은그림찾기 게임! 
+🧠 다운로드나 설치 없이 간단한 가입 후 WEB 상에서 할 수 있는 숨은그림찾기 게임! <br>
 친구들과 누가누가 더 잘하나 승부를 겨뤄보세요!
 
 ### 선정이유
@@ -12,7 +12,7 @@
 - CRUD 구현
 - HTML/JSP를 활용한 화면간 이동 구현
 - Web-Based의 처리는 Request/Response구조라는 웹의 특징을 활용하여 구현됨 
-
+<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/game.png">
   (출처 : <게임제작개론 : #6 게임 시스템 구조에 대한 이해> https://www.slideshare.net/sm9kr/6-20903192)
 
 ### PROGRAMING TOOLS
@@ -24,11 +24,11 @@
     - Oracle DB (JPA, JDBC)
     
 ```
-## Java Tree
+## Structure
 <div>
   - MVC Pattern
-    
-  (출처: https://hackernoon.com/ )
+<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/MVC1.png">
+  (출처: 위키피디아)
   
 ## INSIGHT
 ```
