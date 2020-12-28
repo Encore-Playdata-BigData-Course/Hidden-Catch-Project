@@ -30,8 +30,8 @@
 ## Structure
 <div>
   - MVC Pattern<br>
-<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/MVC1.png" width=500><br>
-  (출처: 위키피디아)
+<img src="https://i.stack.imgur.com/RQWhk.png" a href="https://stackoverflow.com/questions/34877766/codeigniter-model-insert-or-update-from-controller" width=500><br>
+  (출처: Stackoverflow)
   
 ## Insight
 <div>
