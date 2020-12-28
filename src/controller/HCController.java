@@ -70,7 +70,10 @@ public class HCController extends HttpServlet {
 
 	//게임하기
 	private void game(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		req.getRequestDispatcher("game"+req.getParameter("gamenumber")+".jsp").forward(req, res);
+		HttpSession session = req.getSession();
+		String gamenumber = req.getParameter("gamenumber");
+		session.setAttribute("gamenumber", gamenumber);
+		req.getRequestDispatcher("game"+gamenumber+".jsp").forward(req, res);
 	}
 	
 	//update하기

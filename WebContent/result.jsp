@@ -20,8 +20,7 @@
 <p>
 <p>
 <center><h3>정답을 확인하세요!</h3>
-
-<img src = "./images/1_answer.png">
+<img src = "./images/${sessionScope.gamenumber}_answer.png">
 <p>
 <div>
 
