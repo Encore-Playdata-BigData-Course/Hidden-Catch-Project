@@ -17,7 +17,7 @@
 <p>
 <p>
 <center>
-<img src="https://media4.giphy.com/media/U57D8xBvTi599FwaAb/giphy-preview.gif" width=300>
+<img src="https://media4.giphy.com/media/YRbeBrFSapf8b77zYA/source.gif" width=300>
 <p>
 <%
 out.println(request.getAttribute("msg"));
