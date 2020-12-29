@@ -46,7 +46,7 @@
 ```
 
   - MVC Pattern<br>
-   <img src="https://i.stack.imgur.com/RQWhk.png" a href="https://gmlwjd9405.github.io/images/web/mvc-flow-of-control.png" width=750><br>
+   <img src="https://gmlwjd9405.github.io/images/web/mvc-flow-of-control.png" width=750><br>
   (출처: https://gmlwjd9405.github.io/)
 
   
