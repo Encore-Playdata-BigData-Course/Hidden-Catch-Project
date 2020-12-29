@@ -17,6 +17,9 @@
 <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/game.png"><br>
   (출처 : <게임제작개론 : #6 게임 시스템 구조에 대한 이해> https://www.slideshare.net/sm9kr/6-20903192)
 
+### Workflow
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT6.jpg" width=750> <br><br>
+  
 ### Programming Tools
 
 ```
