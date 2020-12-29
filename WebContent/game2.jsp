@@ -274,7 +274,7 @@ class="logout">logout</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br> </p>
 
 <!-- 고정해서 넘기는 버전  --!>
 <% session.setAttribute("result", "9"); %> 
- <center><button onclick="location.href='controller?command=main'"></h3>처음으로</h3></button> 
+ <center><button onclick="location.href='controller?command=main'"><h3>처음으로</h3></button> 
  		<button onclick="location.href='controller?command=gameover'"><h3>게임 끝</h3></button> </center>
 
 

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>가입하기</title>
+<title>가입하기</title>
 </head>
 
 <body bgcolor="lightgray" >

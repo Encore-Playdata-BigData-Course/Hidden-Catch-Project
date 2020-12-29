@@ -96,7 +96,7 @@ public class HCController extends HttpServlet {
 				url = "main.jsp";
 				log.info( id +" 로그인 성공");
 			} else if(loginresult.equals("id")) {
-				req.setAttribute("msg", "id를 다시 확인해주세요");
+				req.setAttribute("msg", "ID를 다시 확인해주세요");
 			} else if(loginresult.equals("pw")){
 				req.setAttribute("msg", "비밀번호를 다시 확인해주세요");
 			}
