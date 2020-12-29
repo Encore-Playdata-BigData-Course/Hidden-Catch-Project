@@ -18,14 +18,11 @@ public class ClientDAO {
 		try {
 			clientId = (String) em.createNamedQuery("findId").setParameter("id", id).getSingleResult();
 			clientPw = (String) em.createNamedQuery("findPw").setParameter("id", id).getSingleResult();
-			if (!clientId.equals(id)) {
-				result = "id";
-			} else if (!clientPw.equals(pw)) {
+			if (!clientPw.equals(pw)) {
 				result = "pw";
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
-			throw e;
+			result = "id";
 		} finally {
 			em.close();
 		}
