@@ -20,9 +20,10 @@
 <center>
 
 <img src="https://media1.giphy.com/media/mWNKepaVR61rUhl4DX/source.gif" width=350>
+<h2> ${id}님, 잘 가요! 또 만나요!</h2>
 <%	session.invalidate();
 	session = null; %>
-<h2>${id}님, 잘 가요! 또 만나요!</h2>
+
 <center> <input type='BUTTON' value="초기 화면으로 돌아가기" onclick="location.href='index.html'">
 </center>
 </body>
