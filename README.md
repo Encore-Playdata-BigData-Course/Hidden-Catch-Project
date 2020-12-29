@@ -46,6 +46,7 @@
   
   - 게임 화면
   <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT4.jpg" width=500> <br>
+  
 ## Insight
 <div>
     
