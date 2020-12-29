@@ -36,8 +36,8 @@
    <img src="https://i.stack.imgur.com/RQWhk.png" a href="https://gmlwjd9405.github.io/images/web/mvc-flow-of-control.png" width=750><br>
   (출처: Stackoverflow)
   ```
- ❕ 제 역할만 한다! : Model, View, Controller의 기능을 각각 분리해 각자 역할에 집중할 수 있게 해
-                  유지보수성, 확장성, 유연성이 증가하고, 중복코딩을 막는 MVC 패턴을 사용했습니다.
+ ❕ 제 역할만 한다! : Model, View, Controller 기능을 분리해 각자 역할에 집중할 수 있게 해
+                    유지보수성, 확장성, 유연성은 증가하고, 중복코딩은 막는 MVC 패턴을 사용했습니다.
  ❕ OCP: Controller가 필요한 값들을 service에서 불러오게 하여 추가 내용을 service 인터페이스를 거쳐 확장하게끔 했습니다.
                   * 참고 : OCP(Open/closed principle, 개방-폐쇄 원칙) - 소프트웨어 개체(클래스, 모듈, 함수 등등)는 확장에 대해 열려 있고, 
                                                                         수정에 대해서는 닫혀 있어야 한다'는 프로그래밍 원칙
@@ -56,7 +56,7 @@
   <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT2.png" width=750> <br><br>
   
   - Page 이동<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=750> <br><br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT3.jpg" width=750> <br><br>
   
   - 게임 화면<br>
   <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT4.jpg" width=750> <br>
