@@ -33,8 +33,21 @@
 <div>
   
   - MVC Pattern<br>
-  <img src="https://i.stack.imgur.com/RQWhk.png" a href="https://stackoverflow.com/questions/34877766/codeigniter-model-insert-or-update-from-controller" width=750><br>
+   <img src="https://i.stack.imgur.com/RQWhk.png" a href="https://gmlwjd9405.github.io/images/web/mvc-flow-of-control.png" width=750><br>
   (출처: Stackoverflow)
+  ```
+ ❕ 제 역할만 한다! : Model, View, Controller의 기능을 각각 분리해 각자 역할에 집중할 수 있게 해
+                  유지보수성, 확장성, 유연성이 증가하고, 중복코딩을 막는 MVC 패턴을 사용했습니다.
+ ❕ OCP: Controller가 필요한 값들을 service에서 불러오게 하여 추가 내용을 service 인터페이스를 거쳐 확장하게끔 했습니다.
+                  * 참고 : OCP(Open/closed principle, 개방-폐쇄 원칙) - 소프트웨어 개체(클래스, 모듈, 함수 등등)는 확장에 대해 열려 있고, 
+                                                                        수정에 대해서는 닫혀 있어야 한다'는 프로그래밍 원칙
+ ❕ POJO Service: 자바로만 만들어진 Service는 뷰에 종속되지 않으므로 스펙 변경(웹 -> 모바일로 view단 변경 등)의 경우에 
+                  해당 비즈니스로직을 그대로 재사용 할 수 있습니다.
+                * 참고 : POJO(Plain Old Java Object) - 순수 자바 언어로만 개발된 객체.
+                                                      자바의 객체지향적 원리에 충실하면서, 
+                                                      환경과 기술에 종속되지 않고 필요에 따라 재활용될 수 있는 방식으로 설계된 오브젝트
+  
+```
   
   - DB<br>
   <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=750> <br><br>
@@ -57,13 +70,11 @@
         - 명령어로 하나의 브랜치에서 각자의 작업물을 push and pull을 하려는 과정에서 
           자격증명 오류, 병합 충돌 등 여러 오류가 발생했습니다.
         - 폴더 자체를 삭제한 후 Git Desktop에서 Clone Repository 기능으로 모든 팀원의 폴더를 동기화하며 해결했습니다.
-    
-    
+        
     ❔ Controller for Everymove
         - 컨트롤러에서 각 커맨드 실행 전에 세션에 id값이 있는지를 확인해 로그인이 안 된 경우에는 가입페이지에만 접근가능합니다.
         - 이를 위해 이동 경로 역시 화면간 직접 이동이 아닌 컨트롤러를 거치도록 개발했습니다.
-     
-     
+          
     ❔ One to Many
         - 최소한의 기능으로 웹에서 게임 한 판을 온전히 동작하게 만든 후 추가 기능을 더하는 과정으로 작업했습니다. 
         - 첫 게임이 구현된 후 CRUD 및 2번째 3번째 게임 등을 추가하면서 경로 변경이나 더 필요한 문구 등이 생겨났습니다.
