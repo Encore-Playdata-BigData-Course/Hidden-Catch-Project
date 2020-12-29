@@ -10,6 +10,7 @@
 <body bgcolor="lightgray" >
 &nbsp;<p><p><p>
 	<center>
+<img src="https://media0.giphy.com/media/kfj4cOQ4jk4D2kzz04/source.gif" width=200><br>
 	<h3>회원가입</h3>
 	<br>
 	  <!-- write Form  -->

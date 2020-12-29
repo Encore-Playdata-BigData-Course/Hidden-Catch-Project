@@ -16,6 +16,7 @@
 <body bgcolor="lightgray" >
 <br>
 <center>   
+<img src="https://media0.giphy.com/media/kfj4cOQ4jk4D2kzz04/source.gif" width=200><br>
 <h3>개인 정보 수정하기</h3>
 <br>
 
