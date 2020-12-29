@@ -63,7 +63,7 @@
   <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT3.jpg" width=750> <br><br>
   
   - 게임 화면<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT4.jpg" width=750> <br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT7.png" width=750> <br>
   반응형 이미지맵으로 구현<br><br>
   
 ## Insight
