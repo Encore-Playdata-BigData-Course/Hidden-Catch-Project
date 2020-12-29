@@ -7,8 +7,10 @@ create table client (
 create table leaderboard (
 	id varchar(20),
 	score number(10),
-	time varchar(30)
+	time varchar(30) primary key
 );
-alter table leaderboard add foreign key (id) references client (id);
+
 insert into client values ('testid', 'testpw');
 commit;
+
+alter table leaderboard add foreign key (id) references client (id);

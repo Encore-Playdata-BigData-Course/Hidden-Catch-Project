@@ -79,8 +79,10 @@ public class ClientDAO {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 		String sql = "delete from client where id=?";
+		String sql1 = "delete from leaderboard where id=?";
 		try {
 			int result = em.createNativeQuery(sql).setParameter(1, id).executeUpdate();
+			int result1 = em.createNativeQuery(sql1).setParameter(1, id).executeUpdate();
 			tx.commit();
 			if (result == 1) {
 				return true;

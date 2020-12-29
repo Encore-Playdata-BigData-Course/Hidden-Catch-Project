@@ -10,6 +10,7 @@
 <body bgcolor="lightgray">
 <body>
 <center>
+<img src="https://skillsofthemodernage.com.au/img/resources/anim-icons/eraser/animat-eraser-color.gif" width=250><p>
 ${id}님의 계정이 삭제되었습니다.
 <%	session.invalidate();
 	session = null; %>

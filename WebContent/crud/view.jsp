@@ -12,7 +12,9 @@
 &nbsp;
 <p>
 <p>
+
 <center>
+<img src="https://i.gifer.com/6oY.gif" width=200><p>
 ${id}님의 회원가입이 완료되었습니다!
 <p><p>
 <input type="button" value="로그인" onclick="location.href='index.html'"> 

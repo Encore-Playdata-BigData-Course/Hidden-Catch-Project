@@ -79,6 +79,7 @@ public class HCController extends HttpServlet {
 	//update하기
 	private void update(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		req.getRequestDispatcher("crud/update.jsp").forward(req, res);
+
 	}
 
 	//로그인 DB 조회
@@ -93,6 +94,7 @@ public class HCController extends HttpServlet {
 				session.setAttribute("id", id);
 				session.setAttribute("pw", pw);
 				url = "main.jsp";
+				log.info( id +" 로그인 성공");
 			} else if(loginresult.equals("id")) {
 				req.setAttribute("msg", "id를 다시 확인해주세요");
 			} else if(loginresult.equals("pw")){
@@ -116,6 +118,7 @@ public class HCController extends HttpServlet {
 				} else {
 					session.setAttribute("leaderboard", list);
 					url = "result.jsp";
+					log.info( "게임 수행 : " + session.getAttribute("id") + " " + session.getAttribute("result")+"점");
 				}
 			} else {
 				req.setAttribute("msg", "게임 결과 입력 실패");
@@ -137,6 +140,7 @@ public class HCController extends HttpServlet {
 					session.setAttribute("id", id);
 					session.setAttribute("pw", pw);
 					url = "crud/view.jsp";
+					log.info("회원 가입: "+ session.getAttribute("id"));
 				} else if(joinresult.equals("fail")) {
 					req.setAttribute("msg", "중복된 ID가 존재합니다.");
 				}
@@ -156,6 +160,7 @@ public class HCController extends HttpServlet {
 				if(HCService.update(id, newPw)) {
 					session.setAttribute("pw", newPw);
 					url="crud/updateSuccess.jsp";
+					log.info("회원정보 수정 : "+ session.getAttribute("id"));
 				} else {
 					req.setAttribute("msg", "수정 실패");
 				}
@@ -171,6 +176,7 @@ public class HCController extends HttpServlet {
 			try {		
 				HCService.delete(id);	
 				url = "crud/deleteSuccess.jsp";
+				log.info("회원 탈퇴 : "+ session.getAttribute("id"));
 			} catch (Exception e) {
 				e.printStackTrace();
 				req.setAttribute("msg", "회원 삭제시 에러");

@@ -13,17 +13,23 @@
     <p style="text-align:right;"> <a href="controller?command=update" class="id"><i class="fa fa-gamepad" style="font-size:30px;color:grey;"></i>${id}</a> is gaming!  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
 <i class="fa fa-sign-out" style="font-size:30px;color:grey;"></i><a href="controller?command=logout" class="logout">logout</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br> </p>
 </div>
-<br><br><br><br><br>
+<br><br>
 <center>
 <c:if test="${not empty sessionScope.result}">
-${sessionScope.id}님의 게임 결과는?!<br>${sessionScope.result}점입니다!
-</c:if>
 
-<br><br><br><br>
-게임 선택<br>
-<button onclick="location.href='controller?command=game&gamenumber=1'">game1</button>
-<button onclick="location.href='controller?command=game&gamenumber=2'">game2</button>
-<button onclick="location.href='controller?command=game&gamenumber=3'">game3</button>
+<hr style="border: solid 10px gray; width: 30%" >
+<br>
+${sessionScope.id}님의 게임 결과는?!<br>${sessionScope.result}점입니다!
+<br>
+<br>
+<hr style="border: solid 10px gray; width: 30%" >
+</c:if>
+<br>
+<h3>게임 선택</h3><br>
+<img src="images/1_original.png" width=150 style="border:5px solid black">&nbsp;&nbsp;<img src="images/2_original.png" width=150  style="border:5px solid black">&nbsp;&nbsp;<img src="images/3_original.png" width=150  style="border:5px solid black"><br>
+<button onclick="location.href='controller?command=game&gamenumber=1'" style="WIDTH:154px;" ><h3>game1</h3></button>&nbsp;&nbsp;
+<button onclick="location.href='controller?command=game&gamenumber=2'" style="WIDTH:154px;"><h3>game2</h3></button>&nbsp;&nbsp;
+<button onclick="location.href='controller?command=game&gamenumber=3'" style="WIDTH:154px;"><h3>game3</h3></button>
 </center>
 </body>
 </html>
