@@ -14,7 +14,7 @@
 - CRUD를 웹페이지를 통해 구현했습니다
 - HTML/JSP를 활용한 화면간 이동을 구현했습니다
 - Web-Based 게임의 처리는 Request/Response구조라는 웹의 특징을 활용하여 구현됩니다. 
-<img src="https://github.com/YeonjiKim0316/step11_hiddencatch/blob/main/game.png"><br>
+<img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/game.png?raw=true"><br>
   (출처 : <게임제작개론 : #6 게임 시스템 구조에 대한 이해> https://www.slideshare.net/sm9kr/6-20903192)
 
 ### Programming Tools
