@@ -32,20 +32,21 @@
 ## Structure
 <div>
   - MVC Pattern<br>
-<img src="https://i.stack.imgur.com/RQWhk.png" a href="https://stackoverflow.com/questions/34877766/codeigniter-model-insert-or-update-from-controller" width=500><br>
+  <img src="https://i.stack.imgur.com/RQWhk.png" a href="https://stackoverflow.com/questions/34877766/codeigniter-model-insert-or-update-from-controller" width=750><br>
   (출처: Stackoverflow)
   
   - DB<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=500> <br><br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=750> <br><br>
   
   - Controller<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT2.png" width=500> <br><br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT2.png" width=750> <br><br>
   
   - Page 이동<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=500> <br><br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT1.jpg" width=750> <br><br>
   
   - 게임 화면<br>
-  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT4.jpg" width=500> <br><br>
+  <img src="https://github.com/YeonjiKim0316/Yeonjikim0316/blob/main/PT4.jpg" width=750> <br>
+  * 반응형 이미지맵으로 구현<br><br>
   
 ## Insight
 <div>
